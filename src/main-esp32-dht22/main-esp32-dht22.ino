@@ -27,7 +27,7 @@
 
 // Set your access point network credentials
 const char *ssid = "esp32_0";
-const char *password = "keepomap";
+const char *password = "test";
 
 const char *localhost = "192.168.1.2";
 
