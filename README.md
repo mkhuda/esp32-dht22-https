@@ -1,6 +1,17 @@
-# ESP32, DHT22 and HTTPS Post
+# ESP32, DHT22, (DHT11 and DHT21) and HTTPS Post
 
 This project is under development, it just for testing with ESP32, DHT22 and hit API's served somewhere.
+Supported sensor for this project based on DHT library:
+- DHT 11
+- DHT 22
+- DHT 21
+
+```c
+// Uncomment whatever type you're using!
+//#define DHTTYPE DHT11   // DHT 11
+#define DHTTYPE DHT22 // DHT 22  (AM2302), AM2321
+//#define DHTTYPE DHT21   // DHT 21 (AM2301)
+```
 
 > Still on going development
 
@@ -11,7 +22,7 @@ This project is under development, it just for testing with ESP32, DHT22 and hit
     - Update `wifissid.txt` and `wifipassword.txt` under `src/main-esp32-dht22/data` folder. And change it according to your wifi, to make sure the ESP32 can connect to the internet
 4. Prepare API Key and Host
 
-    ```c++
+    ```c
     const String apiKey = ""; // should be for x-api-key header value
     String deviceSerial = ""; // should be deviceSerial
     String host = "https://api.test.com"; // yout API host
