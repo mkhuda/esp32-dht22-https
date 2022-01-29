@@ -21,6 +21,12 @@ This project is under development, it just for testing with ESP32, DHT22 and hit
 1. Upload SPPIFS data by using `Tools -> ESP32 Sketch Data Upload` (on Arduino IDE)
 2. After that, just flash by pressing Upload button on Arduino IDE.
 
+## Wifi Setting via `192.198.4.1` 
+- Make sure to connect on wifi AP named `esp32_0` and `test`.
+- And hit `192.198.4.1` via your browser, then edit this:
+![image](https://user-images.githubusercontent.com/738088/151668174-d743065a-65b2-46de-a2f4-411f5fd89963.png)
+
+
 ## Credits
 - ESP32
 - Not yet, will be updated soon
