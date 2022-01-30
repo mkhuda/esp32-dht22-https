@@ -17,7 +17,7 @@ Supported sensor for this project based on DHT library:
 
 ## Prerequisite
 1. Install ESP32 board manager to arduino IDE, Platformio, or VSCode Arduino
-2. you need the SPPIFS sketch data uploader, to include it in the flash, please follow the tutorial [here](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/)
+2. you need the SPIFFS sketch data uploader, to include it in the flash, please follow the tutorial [here](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/)
 3. Prepare wifi setting to connect ESP32 to the internet:
     - Update `wifissid.txt` and `wifipassword.txt` under `src/main-esp32-dht22/data` folder. And change it according to your wifi, to make sure the ESP32 can connect to the internet
 4. Prepare API Key and Host
@@ -29,7 +29,7 @@ Supported sensor for this project based on DHT library:
     ```
 
 ## Upload Sketch Data
-1. Upload SPPIFS data by using `Tools -> ESP32 Sketch Data Upload` (on Arduino IDE)
+1. Upload SPIFFS data by using `Tools -> ESP32 Sketch Data Upload` (on Arduino IDE)
 2. After that, just flash by pressing Upload button on Arduino IDE.
 
 ## Wifi Setting via `192.198.4.1` 
